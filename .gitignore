@@ -1,0 +1,19 @@
+# PlatformIO build and configuration files
+.pio/
+.vscode/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments (if you ever make one)
+venv/
+env/
+
+# IDE / editor backups
+*.code-workspace
+*.swp
