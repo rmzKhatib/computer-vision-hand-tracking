@@ -12,8 +12,8 @@ void setup() {
     pinMode(BUZZ, OUTPUT);
 
   // startup blink
-  for (int i = 0; i < N_LEDS; i++) { digitalWrite(LEDS[i], HIGH); delay(80); }
-  for (int i = 0; i < N_LEDS; i++) { digitalWrite(LEDS[i], LOW);  delay(80); }
+    for (int i = 0; i < N_LEDS; i++) { digitalWrite(LEDS[i], HIGH); delay(80); }
+    for (int i = 0; i < N_LEDS; i++) { digitalWrite(LEDS[i], LOW);  delay(80); }
 
   Serial.println("READY");
 }
